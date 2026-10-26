@@ -31,7 +31,7 @@ const fonts = [
 const asDataUrl = (file: string) =>
   `data:image/png;base64,${fs.readFileSync(pub(file)).toString("base64")}`;
 
-const mascot = asDataUrl("brand/PRSNC-mascot.png");
+const mascot = asDataUrl("brand/PRSNC-mascot.svg");
 const mark = asDataUrl("brand/PRSNC-mark-192.png");
 
 const INK = "#1a1a16";
